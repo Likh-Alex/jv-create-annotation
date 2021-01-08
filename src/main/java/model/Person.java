@@ -3,19 +3,10 @@ package model;
 public class Person {
     private String name;
     private int age;
-    private Bet bet;
 
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
-    }
-
-    public Bet getBet() {
-        return bet;
-    }
-
-    public void setBet(Bet bet) {
-        this.bet = bet;
     }
 
     public String getName() {
